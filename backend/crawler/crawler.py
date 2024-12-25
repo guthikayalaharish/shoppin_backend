@@ -18,7 +18,7 @@ class Crawler:
                     links.add(url)
             return list(links)
         except Exception as e:
-            print(f"Error fetching {domain}: {e}")
+            print(f"Error occured while fetching urls from {domain}: {e}")
             return []
 
     def run(self):
